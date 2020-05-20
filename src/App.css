@@ -171,13 +171,6 @@
   padding-top: 3em;
 }
 
-.about-body h1{
-  font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
-  font-size: 100px;
-  padding-bottom: 0.5em;
-}
-
 .success-msg {
   color: #57a773;
   padding: 10px 15px;

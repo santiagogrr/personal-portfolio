@@ -13,7 +13,7 @@ class Resume extends Component {
   render(){
     return (
       <div style={{padding: '2em'}}>
-      <Grid className="about-body">
+      <Grid className="contact-body">
         <Row>
             <Cell align='center'>
               <h1>Resume</h1>
