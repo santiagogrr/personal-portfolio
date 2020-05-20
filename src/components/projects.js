@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
+import { Row, Col } from 'reactstrap';
 
 
 class Projects extends Component {
@@ -103,7 +104,12 @@ class Projects extends Component {
   
   render(){
     return (
-      <div className = "category-tabs">
+      <div className="contact-body">
+          <Row>
+            <Col align='center'>
+                <h1>Projects</h1>
+            </Col>
+          </Row>
         <Tabs activeTab ={this.state.activeTab} onChange={tabId => this.setState({activeTab:tabId})} ripple >
           <Tab>React Native</Tab>
           <Tab>Machine Learning Research</Tab>
@@ -111,7 +117,7 @@ class Projects extends Component {
         
           <Grid>
             <Cell col={12}>
-              <div className="content">
+              <div>
                 {this.toggleCategories()}
               </div>
             </Cell>

@@ -30,11 +30,11 @@ class Resume extends Component {
               </div>  
               <h2 style={{paddingTop:'10px'}}>Santiago Guerra</h2>
               <h4 style={{color:'grey'}}>Software Developer</h4>
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+              <hr style={{borderTop: '3px solid #6D597A', width: '50%'}}/>
               <p style={{fontSize: '16px'}}>Hello, my name is Santiago. I'm an aspiring full-stack developer with experience in React, React Native, Python, Oracle SQL and MongoDB.</p>
               <p style={{fontSize: '16px'}}>I'm constantly learning new things. currently those things include gaining more experience with MongoDB, React, Express JS, and Node JS.</p>
               <h4 style={{color:'grey'}}>Skills</h4>
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+              <hr style={{borderTop: '3px solid #6D597A', width: '50%'}}/>
               <div className='skill-section'>
                 <Row>
                   <Col xs={4}>
@@ -51,7 +51,7 @@ class Resume extends Component {
                   </Col>
                 </Row>
               </div>
-              <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+              <hr style={{borderTop: '3px solid #6D597A', width: '50%'}}/>
               <a href={File} target="_blank" rel="noopener noreferrer" download>
                 <Button color="primary">
                     <i className="fa fa-download"/>
@@ -76,7 +76,7 @@ class Resume extends Component {
                 city="Bordeaux, France"
               />
 
-              <hr style={{borderTop: '3px solid #e22947'}} />
+              <hr style={{borderTop: '3px solid #E56B6F'}} />
 
               <h2 style={{fontWeight:"bold"}}>Work Experience</h2> 
               <Experience
@@ -111,7 +111,7 @@ class Resume extends Component {
                 city="Monterrey, NL"
               />
 
-              <hr style={{borderTop: '3px solid #e22947'}} />
+              <hr style={{borderTop: '3px solid #E56B6F'}} />
 
               <h2 style={{fontWeight:"bold"}}>Volunteering Experience</h2> 
               <Experience
@@ -130,7 +130,7 @@ class Resume extends Component {
                 city="García, NL"
               />
 
-              <hr style={{borderTop: '3px solid #e22947'}} />
+              <hr style={{borderTop: '3px solid #E56B6F'}} />
 
               <h2 style={{fontWeight:"bold"}}>Languages</h2> 
               <Skills

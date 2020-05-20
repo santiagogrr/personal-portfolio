@@ -75,15 +75,17 @@ class Contact extends Component {
               <div className = "contact-description">
                 <h2>Have some questions?</h2> 
                   <i className = 'fa fa-envelope-open-o' aria-hidden="true"/>
-                  <p style={{width:'75%', paddingTop: '1em'}}>
+                  <p style={{width:'75%', paddingTop: '0.5em'}}>
                     Feel free to get in touch with me. I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
                   </p>
                   <p style={{paddingTop: '20px'}}>Need help?</p>
-                  <input
-                  style={{border: 'none',marginBottom: '15px',fontWeight: 'bold', width:'42%', fontSize: '18px'}}
-                  ref ={(p) =>this.p = p}
-                  value= "santiagog94@gmail.com"
-                  />
+                  <div className="input-section">
+                    <input
+                    style={{border: 'none',marginBottom: '15px',fontWeight: 'bold', width:'100%'}}
+                    ref ={(p) =>this.p = p}
+                    value= "santiagog94@gmail.com"
+                    />
+                  </div>
                 <div>
                   <Button color="primary" onClick={() => this.copyCodeToClipboard()}>
                     Copy

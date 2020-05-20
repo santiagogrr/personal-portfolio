@@ -47,7 +47,6 @@
 }
 
 .social-links {
-  display:flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
@@ -56,7 +55,7 @@
 
 .social-links i {
   color:white;
-  font-size: 5em;
+  font-size: 6vw;
   padding: 8px;
 }
 
@@ -127,6 +126,42 @@
   color: #606060;
 }
 
+.input-section input{
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .contact-description p {
+     font-size: 14px;
+  }
+
+  .contact-description h2 {
+    font-size: 24px;
+    margin: 0px;
+  }
+
+  .contact-list h2 {
+    font-size: 24px;
+    margin: 0px;
+  }
+
+  .contact-description i {
+    font-size: 50px;
+  }
+
+  .contact-body h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 80px;
+    
+  }
+
+  .input-section input {
+    font-size: 14px;
+  }
+}
+
 
 /* contact page */
 
@@ -155,7 +190,8 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
+  background: #141E30;
+  opacity: 1;
   color: white;
   padding: 2em;
 }
@@ -164,4 +200,48 @@
 .skill-section p {
   font-size: 16px;
   padding-bottom: 0.5em;
+}
+
+.education-section p {
+  font-size: 18px;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  .education-section p {
+     font-size: 10px;
+  }
+
+  .education-section h3 {
+    font-size: 18px;
+ }
+}
+
+.experience-section p {
+  font-size: 18px;
+}
+
+.experience-section li {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .experience-section p {
+     font-size: 10px;
+  }
+
+  .experience-section li {
+    font-size: 10px;
+ }
+
+  .experience-section h3 {
+    font-size: 18px;
+ }
+}
+
+.work-info {
+  justify-content: center;
+  padding-bottom: 10px;
 }

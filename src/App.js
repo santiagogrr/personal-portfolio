@@ -18,7 +18,7 @@ function App() {
                       <Link style={{fontSize:'24px'}}  to="/contact">Contact</Link>
                   </Navigation>
               </Header>
-              <Drawer title={<span style={{fontWeight:'500', fontSize: '24px'}}>My Portfolio</span>}>
+              <Drawer title={<Link style={{fontWeight:'bold', color: 'grey', fontSize: '24px'}} to="/">My Portfolio</Link>}>
                   <Navigation>
                       <Link style={{fontSize:'24px'}} to="/resume">Resume</Link>
                       <Link style={{fontSize:'24px'}} to="/projects">Projects</Link>
