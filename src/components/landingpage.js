@@ -5,7 +5,7 @@ import Profile from '../assets/photo1.png'
 class Landing extends Component {
   render(){
     return (
-      <div className="landing-grid" style={{width: '100%', magin: 'auto'}}>
+      <div className="landing-grid">
         <Container >
           <Row>
             <Col>
