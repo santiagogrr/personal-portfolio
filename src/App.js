@@ -5,6 +5,10 @@ import Footer from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { HashRouter, Link } from 'react-router-dom';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-167311067-1');
+ReactGA.pageview('/homepage');
 
 function App() {
   return (
