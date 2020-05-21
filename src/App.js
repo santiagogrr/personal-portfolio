@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Main from './components/main'
 import Footer from './components/footer';
@@ -6,11 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { HashRouter, Link } from 'react-router-dom';
 import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 
+const history = createBrowserHistory();
 
-ReactGA.initialize('UA-167311067-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+  useEffect(() => {
+    ReactGA.initialize('UA-167311067-1');
+    ReactGA.pageview(window.location.pathname + window.location.search); // Record a pageview for the given page
 
+  }, [])
 
 function App() {
   return (
