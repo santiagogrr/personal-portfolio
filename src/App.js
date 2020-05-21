@@ -6,9 +6,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { HashRouter, Link } from 'react-router-dom';
 import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
+
+const history = createBrowserHistory();
 
 ReactGA.initialize('UA-167311067-1');
 ReactGA.pageview('/homepage');
+
+history.listen(location => {
+    ReactGA.set({ page: location.pathname }); // Update the user's current page
+    ReactGA.pageview(location.pathname); // Record a pageview for the given page
+  });
 
 function App() {
   return (
