@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import Main from './components/main'
 import Footer from './components/footer';
@@ -6,18 +6,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { HashRouter, Link } from 'react-router-dom';
 import ReactGA from 'react-ga';
-import { createBrowserHistory } from 'history';
+import { createHashHistory } from 'history';
 
-const history = createBrowserHistory();
+const history = createHashHistory();
 
+ReactGA.initialize('UA-167311067-1');
+
+history.listen(location => {
+    ReactGA.set({ page: location.pathname }); // Update the user's current page
+    ReactGA.pageview(location.pathname); // Record a pageview for the given page
+  });
 
 function App() {
-    useEffect(() => {
-        ReactGA.initialize('UA-167311067-1');
-        ReactGA.pageview(window.location.pathname + window.location.search); // Record a pageview for the given page
-    
-      }, [])
-      
   return (
     <HashRouter basename="/">
       <div className="demo-big-content">
