@@ -10,13 +10,14 @@ import { createBrowserHistory } from 'history';
 
 const history = createBrowserHistory();
 
-  useEffect(() => {
-    ReactGA.initialize('UA-167311067-1');
-    ReactGA.pageview(window.location.pathname + window.location.search); // Record a pageview for the given page
-
-  }, [])
 
 function App() {
+    useEffect(() => {
+        ReactGA.initialize('UA-167311067-1');
+        ReactGA.pageview(window.location.pathname + window.location.search); // Record a pageview for the given page
+    
+      }, [])
+      
   return (
     <HashRouter basename="/">
       <div className="demo-big-content">
