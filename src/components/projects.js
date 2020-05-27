@@ -65,7 +65,7 @@ class Projects extends Component {
         <div className="projects-grid">
            {/* Project 1 */}         
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg) center / cover'}}>
+            <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://www.ipade.mx/wp-content/uploads/2014/04/crowdsourcing.jpg) center / cover'}}>
               Unknown Unknown Detection
             </CardTitle>
             <CardText>
@@ -85,13 +85,13 @@ class Projects extends Component {
           {/* Project 1 */}         
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg) center / cover'}}>
-              React Project 1 Description
+              Covid-19 Tracker
             </CardTitle>
             <CardText>
-              Lorem ipsum
+            Coronavirus tracker that shows the numbers and trends of people affected, recovered and deceased due to COVID-19 worldwide and by country.
             </CardText>
             <CardActions border>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/santiagogrr/COVID-tracker" target="_blank" rel="noopener noreferrer">
               <Button colored>Github</Button>
             </a>
             </CardActions>
@@ -113,6 +113,7 @@ class Projects extends Component {
         <Tabs activeTab ={this.state.activeTab} onChange={tabId => this.setState({activeTab:tabId})} ripple >
           <Tab>React Native</Tab>
           <Tab>Machine Learning Research</Tab>
+          <Tab>React</Tab>
         </Tabs>
         
           <Grid>
