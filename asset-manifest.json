@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.cfbbc446.chunk.css",
-    "main.js": "/personal-portfolio/static/js/main.df930cfa.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.df930cfa.chunk.js.map",
+    "main.js": "/personal-portfolio/static/js/main.8ce940a0.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.8ce940a0.chunk.js.map",
     "runtime-main.js": "/personal-portfolio/static/js/runtime-main.30ef1168.js",
     "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.30ef1168.js.map",
     "static/css/2.5206c547.chunk.css": "/personal-portfolio/static/css/2.5206c547.chunk.css",
-    "static/js/2.0e05ca74.chunk.js": "/personal-portfolio/static/js/2.0e05ca74.chunk.js",
-    "static/js/2.0e05ca74.chunk.js.map": "/personal-portfolio/static/js/2.0e05ca74.chunk.js.map",
+    "static/js/2.7bfa789c.chunk.js": "/personal-portfolio/static/js/2.7bfa789c.chunk.js",
+    "static/js/2.7bfa789c.chunk.js.map": "/personal-portfolio/static/js/2.7bfa789c.chunk.js.map",
     "index.html": "/personal-portfolio/index.html",
-    "precache-manifest.2af5815664c77e1c7ef76083aa8d242b.js": "/personal-portfolio/precache-manifest.2af5815664c77e1c7ef76083aa8d242b.js",
+    "precache-manifest.d42af642a797a8bd695cb7b4a35ca235.js": "/personal-portfolio/precache-manifest.d42af642a797a8bd695cb7b4a35ca235.js",
     "service-worker.js": "/personal-portfolio/service-worker.js",
     "static/css/2.5206c547.chunk.css.map": "/personal-portfolio/static/css/2.5206c547.chunk.css.map",
     "static/css/main.cfbbc446.chunk.css.map": "/personal-portfolio/static/css/main.cfbbc446.chunk.css.map",
-    "static/js/2.0e05ca74.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.0e05ca74.chunk.js.LICENSE.txt",
+    "static/js/2.7bfa789c.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.7bfa789c.chunk.js.LICENSE.txt",
     "static/media/New_CV.pdf": "/personal-portfolio/static/media/New_CV.865e1934.pdf",
     "static/media/Pshop_1139.png": "/personal-portfolio/static/media/Pshop_1139.658b2e10.png",
     "static/media/photo1.png": "/personal-portfolio/static/media/photo1.a7845c97.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.30ef1168.js",
     "static/css/2.5206c547.chunk.css",
-    "static/js/2.0e05ca74.chunk.js",
+    "static/js/2.7bfa789c.chunk.js",
     "static/css/main.cfbbc446.chunk.css",
-    "static/js/main.df930cfa.chunk.js"
+    "static/js/main.8ce940a0.chunk.js"
   ]
 }
