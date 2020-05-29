@@ -15,8 +15,10 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid">
-          {/* Project 1 */}         
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Grid>
+          {/* Project 1 */}
+          <Cell phone={12}>    
+        <Card shadow={5}>
           <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg) center / cover'}}>
             Task/Reward App
           </CardTitle>
@@ -29,8 +31,10 @@ class Projects extends Component {
             </a>
           </CardActions>
         </Card>
+        </Cell>  
 
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <Cell phone={12}>
+        <Card shadow={5}>
           <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg) center / cover'}}>
             Search Up App
           </CardTitle>
@@ -43,8 +47,10 @@ class Projects extends Component {
             </a>
           </CardActions>
         </Card>
+        </Cell>
 
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <Cell phone={12}>
+        <Card shadow={5} >
           <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg) center / cover'}}>
             Memory Game
           </CardTitle>
@@ -57,6 +63,9 @@ class Projects extends Component {
             </a>
           </CardActions>
         </Card>
+        </Cell>
+        </Grid>
+        
 
         </div>
       )

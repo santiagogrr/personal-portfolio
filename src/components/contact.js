@@ -71,7 +71,7 @@ class Contact extends Component {
             </Col>
           </Row>
           <Row>
-            <Col xs="6">
+            <Col sm="6" xs="12">
               <div className = "contact-description">
                 <h2>Have some questions?</h2> 
                   <i className = 'fa fa-envelope-open-o' aria-hidden="true"/>
@@ -93,7 +93,7 @@ class Contact extends Component {
                 </div>
               </div>
             </Col>
-            <Col xs="6"> 
+            <Col sm="6" xs="12"> 
               <div className = 'contact-list'>
                 <h2>Contact Me</h2> 
                 <hr/>
