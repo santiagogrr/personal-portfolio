@@ -94,7 +94,7 @@ class Projects extends Component {
           {/* Project 1 */}   
           <Grid>
             
-            <Cell col={6} phone={12}>
+            <Cell col={4} phone={12}>
               <Card shadow={5}>
                 <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg) center / cover'}}>
                   Covid-19 Global Tracker
@@ -110,7 +110,7 @@ class Projects extends Component {
               </Card>
             </Cell>  
             
-            <Cell col={6} phone={12}>
+            <Cell col={4} phone={12}>
               <Card shadow={5}>
                 <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg) center / cover'}}>
                   Covid-19 Mexico Tracker
@@ -124,6 +124,22 @@ class Projects extends Component {
                 </a>
                 <a href="https://covid-19-mexico-tracker.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <Button colored>Demo</Button>
+                </a>
+                </CardActions>
+              </Card>
+            </Cell>  
+
+            <Cell col={4} phone={12}>
+              <Card shadow={5}>
+                <CardTitle style={{color:'#fff', height: '176px', background: 'url(https://i.pinimg.com/originals/5c/7b/53/5c7b53a7be1dd267f24f7559584d1345.jpg) center / cover'}}>
+                  IMDB Movies
+                </CardTitle>
+                <CardText>
+                Project that shows information related to movies, actors and directors using the Internet Movie Database.
+                </CardText>
+                <CardActions border>
+                <a href="https://github.com/santiagogrr/movies-imdb" target="_blank" rel="noopener noreferrer">
+                  <Button colored>Github</Button>
                 </a>
                 </CardActions>
               </Card>
