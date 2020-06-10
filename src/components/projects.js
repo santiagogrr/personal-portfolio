@@ -162,11 +162,11 @@ class Projects extends Component {
           </Col>
         </Row>
         <Grid>
-        <Tabs activeTab ={this.state.activeTab} onChange={tabId => this.setState({activeTab:tabId})} ripple >
-          <Tab>React Native</Tab>
-          <Tab>Machine Learning Research</Tab>
-          <Tab>React</Tab>
-        </Tabs>
+          <Tabs activeTab ={this.state.activeTab} onChange={tabId => this.setState({activeTab:tabId})} ripple >
+            <Tab>React Native</Tab>
+            <Tab>Machine Learning Research</Tab>
+            <Tab>React</Tab>
+          </Tabs>
         </Grid>
         
           <Grid>

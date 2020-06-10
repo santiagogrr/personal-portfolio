@@ -55,7 +55,7 @@
 
 .social-links i {
   color:white;
-  font-size: 6vw;
+  font-size: 120px;
   padding: 8px;
 }
 
@@ -153,12 +153,24 @@
   .contact-body h1{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    font-size: 80px;
-    
+    font-size: 80px;   
   }
 
   .input-section input {
     font-size: 14px;
+  }
+
+  .social-links {
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  .social-links i {
+    color:white;
+    font-size: 70px;
+    padding: 8px;
   }
 }
 
