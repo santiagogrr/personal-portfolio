@@ -63,28 +63,30 @@ class Resume extends Component {
             <Cell col={8} className="resume-right-col">
               <h2 style={{fontWeight:"bold"}}>Education</h2> 
               <Education 
+                startYear="Sep 2021"
+                endYear="Apr 2023"
+                schoolName="Centrale Lille"
+                schoolDescription="Master in Data Science"
+                city="Lille, France"
+              />
+              <Education 
                 startYear="Jan 2016"
                 endYear="Dec 2019"
                 schoolName="Universidad de Monterrey"
                 schoolDescription="Bachelor of Science in Computer Science"
-                city="Monterrey, NL"
-              />
-                <Education 
-                startYear="Jun 2018"
-                endYear="Jul 2018"
-                schoolName="Alliance Française Bordeaux Aquitaine"
-                city="Bordeaux, France"
+                city="Monterrey, Mexico"
               />
 
               <hr style={{borderTop: '3px solid #E56B6F'}} />
 
               <h2 style={{fontWeight:"bold"}}>Work Experience</h2> 
               <Experience
-                startYear="Apr 2020"
-                endYear="May 2020"
+                startYear="Jun 2020"
+                endYear="May 2021"
                 jobName="Software Developer, Dual Systems"
-                jobDescription1="Developed new functionalities in the company's ERP system using Java EE."
-                city="Budapest, Hungary"
+                jobDescription1="Implemented modern web designs through React and SASS in
+                customer’s companies."
+                city="Monterrey, Mexico"
               />
               <Experience
                 startYear="May 2019"
@@ -92,7 +94,7 @@ class Resume extends Component {
                 jobName="Research Assistant In Human AI, University of Michigan"
                 jobDescription1="Integrated novel method of using human-beat-the-machine machine learning classiﬁer data that ﬁnds unknown unknowns with crowd-sourcing algorithms."
                 jobDescription2="Developed a user interface with MeteorJS for crowd-workers to create labels for crowdsourcing algorithms."
-                city="Ann Arbor, MI"
+                city="Ann Arbor, USA"
               />
               <Experience
                 startYear="Oct 2018"
