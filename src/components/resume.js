@@ -6,7 +6,7 @@ import Experience from './experience'
 import Skills from './skills'
 
 import Profile from '../assets/Pshop_1139.png'
-import File from '../assets/New_CV.pdf'
+import File from '../assets/SG-CV.pdf'
 
 
 class Resume extends Component {
