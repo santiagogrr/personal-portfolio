@@ -76,7 +76,7 @@ class Contact extends Component {
                 <h2>Have some questions?</h2> 
                   <i className = 'fa fa-envelope-open-o' aria-hidden="true"/>
                   <p style={{width:'75%', paddingTop: '0.5em'}}>
-                    Feel free to get in touch with me. I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+                    Feel free to get in touch with me. I'm open to discussing new projects, creative ideas or opportunities to be part of your visions.
                   </p>
                   <p style={{paddingTop: '20px'}}>Need help?</p>
                   <div className="input-section">
