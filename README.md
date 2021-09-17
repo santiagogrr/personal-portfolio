@@ -2,5 +2,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## My Portfolio
 
-Personal portfolio made in React and Node JS.
+Personal portfolio made in React and Node JS, showcasing my skills, education, working experience, and more.
 
