@@ -8,7 +8,7 @@ function Footer() {
     return(
         <footer>
             <Container fluid={true}>
-                <Row className="border-top justify-content-end p-3">
+                <Row className="border-top justify-content-end p-2">
                     <Col className="p-0 d-flex justify-content-end" md={3}>
                         This site was made by Santiago Guerra.
                     </Col>
