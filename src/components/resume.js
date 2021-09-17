@@ -47,7 +47,7 @@ class Resume extends Component {
                   </Col>
                   <Col xs={4}>
                     <p>Python</p>   
-                    <p>Java</p>                  
+                    <p>MongoDB</p>                  
                   </Col>
                 </Row>
               </div>
