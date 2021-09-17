@@ -10,7 +10,7 @@ class Experience extends Component {
           <p>{this.props.startYear} - {this.props.endYear}</p>
         </Col>
         <Col xs="6">
-          <h3 style={{marginTop:'0px', fontSize: '24px', fontWeight:'bold'}}>{this.props.jobName}</h3>
+          <h3 style={{marginTop:'5px', fontSize: '24px', fontWeight:'bold'}}>{this.props.jobName}</h3>
         </Col>
         <Col xs="2">
           <p>{this.props.city}</p>
