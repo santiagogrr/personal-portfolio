@@ -7,7 +7,7 @@ class Skills extends Component {
       <Container>
           <Row >
               <Col xs="4">
-              <p style={{fontSize: '16px'}}>{this.props.skill}</p>
+              <p style={{textTransform: 'uppercase'}}>{this.props.skill}</p>
 
               </Col>
               <Col xs="6">
