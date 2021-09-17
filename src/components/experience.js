@@ -10,14 +10,14 @@ class Experience extends Component {
           <p>{this.props.startYear} - {this.props.endYear}</p>
         </Col>
         <Col xs="6">
-          <h3 style={{marginTop:'0px'}}>{this.props.jobName}</h3>
+          <h3 style={{marginTop:'0px', fontSize: '24px', fontWeight:'bold'}}>{this.props.jobName}</h3>
         </Col>
         <Col xs="2">
           <p>{this.props.city}</p>
         </Col>
       </Row>
       <Row className="work-info">
-        <Col xs='8'>
+        <Col xs='8'  >
         <ul>
           <li>{this.props.jobDescription1}</li>
           {this.props.jobDescription2 ? <li>{this.props.jobDescription2}</li>: null}              
