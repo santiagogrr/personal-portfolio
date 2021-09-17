@@ -39,7 +39,7 @@ class Projects extends Component {
                 Search Up App
               </CardTitle>
               <CardText>
-              This app allows students and collaborators to search teachers and physical spaces of my university (University of Monterrey). This was made with the purpose of solving the problem at the university of lack of signals within the campus.
+              This app allows students and collaborators to search teachers and physical spaces of my university (University of Monterrey). This was made with the purpose of solving the problem of lack of signals within the campus.
               </CardText>
               <CardActions border>
                 <a href="https://github.com/santiagogrr/projectOne/" target="_blank" rel="noopener noreferrer">
@@ -100,7 +100,7 @@ class Projects extends Component {
                   Covid-19 Global Tracker
                 </CardTitle>
                 <CardText>
-                Coronavirus tracker that shows the numbers and trends of people affected, recovered and deceased due to COVID-19 worldwide and by country.
+                Coronavirus tracker that shows the numbers and trends of people infected, recovered and deceased due to COVID-19 worldwide and by country.
                 </CardText>
                 <CardActions border>
                 <a href="https://github.com/santiagogrr/COVID-tracker" target="_blank" rel="noopener noreferrer">
